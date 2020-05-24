@@ -1,5 +1,5 @@
 ---
-title: He roto mi blog, pruebo en este
+title: "He roto mi blog, pruebo en este"
 classes: wide
 author_profile:true
 ---
