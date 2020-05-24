@@ -1,6 +1,5 @@
 ---
 title: Prueba margenes
-classes: wide
 author_profile: true
 ---
 
