@@ -38,11 +38,15 @@ body {
 .page {
   @include breakpoint($large) {
     float: right;
-    width: 70%;
+    width: calc(100% - #{$right-sidebar-width-narrow});
+    padding-right: 50%;
+    box-sizing: border-box;
   }
 
   @include breakpoint($x-large) {
-    width: 70%;
+    width: calc(100% - #{$right-sidebar-width});
+    padding-right: 50%;
+    box-sizing: border-box;
   }
 
   .page__inner-wrap {
