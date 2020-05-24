@@ -39,13 +39,13 @@ body {
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: 50em;
+    padding-right: $right-sidebar-width-narrow;
     box-sizing: border-box;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: 50em;
+    padding-right: $right-sidebar-width;
     box-sizing: border-box;
   }
 
